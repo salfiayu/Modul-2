@@ -35,7 +35,7 @@ void tukar(int *px, int *py)
 ```
 
 > Screenshoot 
-> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%201%20struct.png)
+> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-2/blob/main/Modul%202/screenshoot/guided1%20.png)
 
 Program ini menukar nilai dua variabel menggunakan call by address. Nilai a dan b dikirim ke fungsi tukar dalam bentuk alamat, lalu isinya ditukar melalui pointer. Karena yang diubah adalah alamat aslinya, nilai a dan b ikut berubah setelah fungsi dipanggil.
 ---
@@ -69,7 +69,7 @@ void tukar(int &x, int &y)
 ```
 
 > Screenshoot  
-> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%202%20aritmatika.png)
+> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-2/blob/main/Modul%202/screenshoot/Guided2.png)
 
 Program ini menukar nilai dua variabel menggunakan call by reference. Variabel a dan b dikirim ke fungsi tukar sebagai referensi, sehingga perubahan pada x dan y langsung mempengaruhi nilai asli a dan b. Hasilnya, setelah fungsi dipanggil, nilai a dan b tertukar.
 
@@ -120,7 +120,7 @@ int main() {
 ```
 
 > Screenshoot  
-> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%201.png)
+> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-2/blob/main/Modul%202/screenshoot/Unguided1.png)
 
 Program ini melakukan transpose matriks 3×3. Matriks awal disimpan dalam array matriks, lalu tiap elemen [i][j] dipindahkan ke posisi [j][i] pada array transpose. Setelah proses itu, program menampilkan matriks awal dan hasil transpose, di mana baris dan kolomnya saling bertukar.
 ---
@@ -149,7 +149,7 @@ int main()
 ```
 
 > Sreenshoot 
-> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/soal%202.png)
+> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-2/blob/main/Modul%202/screenshoot/Unguided2.png)
 
 Program ini menggunakan call by reference untuk mengubah nilai variabel. Nilai angka dikirim ke fungsi kuadratkan sebagai referensi, lalu nilainya dikalikan dengan dirinya sendiri. Karena referensi mengacu langsung ke variabel asli, nilai angka di main ikut berubah menjadi hasil kuadratnya.
 
